@@ -1,0 +1,129 @@
+.buscador {
+  display: flex;
+  flex-direction: column;
+
+  height: 20vh;
+
+  margin-top: 9vh;
+  padding: 0 1rem;
+  padding-bottom: 4vh;
+
+  background-color: #545776;
+  color: white;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-size: xx-large;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 4vh;
+  }
+}
+
+.inputsContainer {
+  display: flex;
+  grid-template-columns: 2fr 2fr 1fr;
+  align-items: center;
+
+  padding: 0 15vw;
+
+  width: 100%;
+  height: 40%;
+
+  input {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    margin-right: 20px;
+  }
+
+  .inputLocation {
+    justify-self: center;
+
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    margin-right: 20px;
+  }
+}
+
+.react-datepicker-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  .react-datepicker__input-container {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+}
+
+.buscar {
+  display: flex;
+  height: 70%;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+  border-radius: 5px;
+  background: rgb(122, 153, 143);
+}
+
+////////////
+/*
+
+.inputsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75%;
+
+  input {
+    display: flex;
+    width: 30%;
+    height: 40%;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 40%;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    background: rgb(122, 153, 143);
+  }
+}
+
+.datepicker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 40%;
+
+  input {
+    width: 100%;
+    height: 100%;
+  }
+}
+*/

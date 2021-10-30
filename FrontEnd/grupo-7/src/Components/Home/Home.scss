@@ -1,0 +1,50 @@
+.bloqueCategorias,
+.bloqueProductos {
+  padding: 10px 0px 15px;
+  background-color: white;
+
+  h2 {
+    width: 100%;
+
+    margin: 0;
+    padding: 15px 2.5rem;
+
+    text-align: left;
+    font-weight: 700;
+    color: #545776;
+  }
+}
+
+.bloqueCategorias {
+  margin-top: 3vh;
+  height: 50vh;
+  background-color: #ffffff;
+}
+
+.bloqueProductos {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: #d6d9f3c7;
+}
+
+.cards {
+  display: grid;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
+.categorias {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 40vh;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
+.cards {
+  height: 190vh;
+  grid-template-columns: repeat(2, 50%);
+}

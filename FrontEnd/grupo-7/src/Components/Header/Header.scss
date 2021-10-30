@@ -1,0 +1,105 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed; // para que el header quede fijo
+  top: 0; // para que el header quede fijo
+  width: 100%;
+  height: 9vh;
+  background: #f3f1ed;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 220px;
+
+  h4 {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: #545776;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 27%;
+  height: 100%; // <-- estaba en 80%
+
+  .linksHeader {
+    display: flex;
+
+    width: 47%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    border: 1.5px solid rgb(122, 153, 143);
+    background-color: rgb(248, 248, 248);
+    color: rgb(122, 153, 143);
+
+    font-weight: 700;
+    font-size: 20px; //<-- estaba en 20px
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+      background-color: rgb(122, 153, 143);
+    }
+  }
+}
+
+.userContainer {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.userCircle {
+  align-self: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 35px;
+  height: 35px;
+
+  color: white;
+  font-weight: bold;
+  background: #383b58;
+  border-radius: 50%;
+
+}
+
+.greeting {
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+  p {
+    margin:0;
+    padding: 0;
+    margin-left: 3px;
+    align-self: flex-start;
+  }
+}

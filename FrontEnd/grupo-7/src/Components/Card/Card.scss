@@ -1,0 +1,77 @@
+.cardContainer {
+  
+  justify-self: center;
+
+  display: grid;
+  grid-template-columns: 40% auto;
+  align-items: center;
+
+  width: 90%;
+  height: 90%;
+
+  border: 1px solid #dfe4ea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: white;
+
+  img {
+    justify-self: center;
+
+    height: 92%;
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  div {
+    justify-self: center;
+
+    display: grid;
+    grid-template-rows: 10% 15% 10% 45% 20%;
+    align-items: center;
+
+    height: 95%;
+    width: 95%;
+
+    h3,
+    h5,
+    p {
+      width: 100%;
+
+      margin: 0;
+
+      text-align: left;
+    }
+
+    h5 {
+      color: grey;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+
+    p {
+      font-size: smaller;
+    }
+
+    button {
+      justify-self: center;
+      width: 60%;
+      height: 75%;
+
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(122, 153, 143);
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+      color: rgb(248, 248, 248);
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+        background-color: white;
+        color: rgb(122, 153, 143);
+        border: solid 1.5px rgb(122, 153, 143);
+      }
+    }
+  }
+}
